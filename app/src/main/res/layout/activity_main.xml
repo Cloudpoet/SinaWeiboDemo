@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <Button
+        android:id="@+id/main_btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="微博登录" />
+
+    <Button
+        android:id="@+id/main_btn_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="获取用户信息" />
+
+    <Button
+        android:id="@+id/main_btn_verify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="验证Token"/>
+
+    <android.support.v4.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/main_tv_token"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
